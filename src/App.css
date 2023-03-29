@@ -1,0 +1,144 @@
+.nav--title {
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 75px;
+  
+}
+
+.nav--container {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.nav--temperature {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+
+}
+
+.nav--date {
+  font-weight: 600;
+}
+
+
+.temp {
+  font-weight: 500;
+  
+}
+
+.temp--icon {
+  margin-bottom: 10px;
+  margin-right: -10px;
+}
+
+.temp-min {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(170, 170, 170)
+}
+.temp-max{
+  font-size: 14px;
+
+}
+.form--container{
+  margin-left: 20px;
+  display:flex;
+
+}
+
+.form--gap{
+  margin-right: 10px;
+}
+
+.w {
+  width: 18rem;
+}
+
+.card--container{
+  height: 500px;
+  overflow: auto;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+.fon {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+.img--size {
+  max-width: 100%;
+  max-height:auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(189, 184, 184);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(205, 204, 204);
+}
+
+.article--container{
+  margin-left: 25%;
+  margin-right: 30px;
+  display: flex;
+  
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.article--body {
+  text-align: left;
+}
+
+.article--author {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  border-bottom: 1px solid rgb(207, 207, 207);
+  border-top: 1px solid rgb(207, 207, 207);
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  text-align: left;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  
+  
+}
+
+.img--author {
+  border-radius: 50%;
+}
+
+.landingpage--container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
